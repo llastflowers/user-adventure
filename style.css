@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5%;
+    background-color: rgb(245, 236, 220);
+}
+
+main {
+
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#name {
+    height: 80px;
+    width: 250px;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+label img {
+    height: 100px;
+    width: 100px;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+form {
+    margin: 5% 25%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+fieldset {
+    margin-top: 30px;
+    width: 900px;
+}
+
+button {
+    font-size: 30px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(170, 136, 90);
+}

@@ -48,13 +48,13 @@ const leaves = {
     }, {
         id: 'puffball',
         description: 'Common Puffball',
-        result: 'Uh-oh, nope, this must be a toxic mushroom... You feel sick from handling it. Time to go home.',
+        result: 'Uh-oh, nope, this must be a toxic mushroom... You don\'t feel so good... Time to go home.',
         stamina: -30,
         mushrooms: 0
     }, {
         id: 'flyagaric',
         description: 'Amanita muscaria ("Fly Agaric")',
-        result: 'Uh-oh, nope, this must be a toxic mushroom... You feel sick from handling it. Time to go home.',
+        result: 'Uh-oh, nope, this must be a toxic mushroom... You don\'t feel so good... Time to go home.',
         stamina: -30,
         mushrooms: 0
     }]

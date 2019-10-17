@@ -10,6 +10,53 @@
 </head>
 
 <body>
+    <header>
+        <h1><img src="assets/mushroom-icon.svg">&nbsp;Mushroom Foraging Quest&nbsp;<img src="assets/mushroom-icon.svg"></h1>
+    </header>
+
+    <main>
+        <h2>
+            
+            Before we head into the forest...
+        </h2>
+        <form id="user-sign-up">
+            <p class="text-prompt">
+                <label for="name">What's your name?:</label>
+                <br><br><input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>What do you look like?</legend>
+                <p id="avatars">
+                    <label>
+                        <input type="radio" name="avatar" required value="wolf">
+                        <img src="assets/avatars/wolf.svg">
+                    </label>
+                    <label>
+                        <input type="radio" name="avatar" required value="deer">
+                        <img src="assets/avatars/deer.svg">
+                    </label>
+                    <label>
+                        <input type="radio" name="avatar" required value="bear">
+                        <img src="assets/avatars/bear.svg">
+                    </label>
+                    <label>
+                        <input type="radio" name="avatar" required value="penguin">
+                        <img src="assets/avatars/penguin.svg">
+                    </label>
+                    <label>
+                        <input type="radio" name="avatar" required value="fox">
+                        <img src="assets/avatars/fox.svg">
+                    </label>
+                    <label>
+                        <input type="radio" name="avatar" required value="cat">
+                        <img src="assets/avatars/cat.svg">
+                    </label>
+                </p>
+            </fieldset>
+            <br>
+            <button>Let's go!</button>
+        </form>
+    </main>
 
     <script type="module" src="app.js"></script>
 </body>
