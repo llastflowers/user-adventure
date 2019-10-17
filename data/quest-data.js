@@ -6,7 +6,7 @@ const deciduous = {
         right: '45%'
     },
     image: 'mushroom1.jpg',
-    description: 'You approach a cluster of deciduous trees and clear away some dry leaves. What did you find?',
+    description: 'You approach a cluster of deciduous trees and clear away some detritus. What did you find?',
 
     choices:  [{
         id: 'cauliflower',

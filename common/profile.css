@@ -7,7 +7,7 @@
     text-transform: capitalize;
     border: 2px dashed rgb(170, 136, 90);
     padding: 6px;
-    width: 250px;
+    width: 260px;
     border-radius: 15px;
     position: absolute;
     top: 0;
@@ -27,4 +27,12 @@
 
 .profile-stat-label {
     margin: 5px;
+}
+
+.stamina-stat {
+    display: block;
+}
+
+.mushroom-stat {
+    display: block;
 }
