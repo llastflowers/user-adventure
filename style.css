@@ -11,7 +11,7 @@
 }
 
 body {
-    margin: 5%;
+    margin: 3%;
     background-color: rgb(245, 236, 220);
 }
 
@@ -65,7 +65,7 @@ header img {
 }
 
 form {
-    margin: 5% 25%;
+    margin: 3% 25%;
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
 }
@@ -86,4 +86,9 @@ button {
 footer {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 25px;
+    margin-left: 25px;
 }

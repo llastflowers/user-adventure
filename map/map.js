@@ -1,9 +1,9 @@
-import { getUser } from '../data/save-get-user';
+import { getUser } from '../data/save-get-user.js';
 import quests from '../data/quest-data.js';
 import loadProfile from '../common/load-profile.js';
 import createQuestLink from './create-quest-link.js';
-import createCompletedQuest from './create-completed-quest.js';
-import hasCompletedAllQuests from './has-completed-all-quests.js';
+// import createCompletedQuest from './create-completed-quest.js';
+// import hasCompletedAllQuests from './has-completed-all-quests.js';
 import goHome from '../common/go-home.js';
 
 loadProfile();

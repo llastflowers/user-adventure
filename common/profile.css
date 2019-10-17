@@ -1,10 +1,30 @@
 .profile {
     display:flex;
     align-items: center;
-    justify-content: flex-end;
-    margin-right: 5%;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 4%;
+    text-transform: capitalize;
+    border: 2px dashed rgb(170, 136, 90);
+    padding: 6px;
+    width: 250px;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-/* 
-.profile-state-label {
-    text-transform: uppercase;
-} */
+
+#avatar {
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+#name {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.profile-stat-label {
+    margin: 5px;
+}

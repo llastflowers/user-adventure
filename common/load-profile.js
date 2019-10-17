@@ -1,4 +1,4 @@
-import { getUser } from '../data/save-get-user';
+import { getUser } from '../data/save-get-user.js';
 import goHome from './go-home.js';
 
 function loadProfile() {
