@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 236, 220);
+}
+
+main {
+
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+label img {
+    height: 100px;
+    width: 100px;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+#quests {
+    background-image: url('../assets/other/forest.jpg');
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    margin: auto 20%;
+}
+
+.quest {
+    position: absolute;
+    text-shadow: 1px 1px 1px black;
+}
+
+a {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline dotted white;
+    cursor: pointer;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}

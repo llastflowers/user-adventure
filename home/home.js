@@ -8,5 +8,5 @@ userSignUp.addEventListener('submit', function(event) {
     const formData = new FormData(userSignUp);
     const user = makeUser(formData);
     saveUser(user);
-    window.location = 'forest';
+    window.location = 'map/index.html';
 });
