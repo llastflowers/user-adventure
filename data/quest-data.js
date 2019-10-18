@@ -2,8 +2,8 @@ const deciduous = {
     id: 'deciduous',
     title: 'At the base of a deciduous tree',
     map: {
-        top: '90%',
-        right: '45%'
+        top: '80%',
+        left: '45%'
     },
     image: 'mushroom1.jpg',
     description: 'You approach a cluster of deciduous trees and clear away some detritus. What did you find?',
@@ -33,8 +33,8 @@ const leaves = {
     id: 'leaves',
     title: 'Underneath a pile of wet leaves',
     map: {
-        top: '57%',
-        left: '67%'
+        top: '31%',
+        left: '9%'
     },
     image: 'mushroom2.jpg',
     description: 'You crouch down near the leaves and carefully unearth the mushrooms. What did you find?',
@@ -64,8 +64,8 @@ const needles = {
     id: 'needles',
     title: 'Amongst a scattering of pine needles',
     map: {
-        top: '31%',
-        left: '5%'
+        top: '45%',
+        left: '70%'
     },
     image: 'mushroom3.jpg',
     description: 'You clear away some pine needles to see what\'s underneath. What did you find?',
@@ -95,8 +95,8 @@ const log = {
     id: 'log',
     title: 'Beside a mossy log',
     map: {
-        top: '61%',
-        left: '10%'
+        top: '67%',
+        left: '15%'
     },
     image: 'mushroom4.jpg',
     description: 'You come upon a mossy log and kneel down to investigate. What did you find?',
@@ -126,8 +126,8 @@ const bark = {
     id: 'bark',
     title: 'On the bark of an oak tree',
     map: {
-        top: '20%',
-        right: '40%'
+        top: '15%',
+        left: '40%'
     },
     image: 'mushroom5.jpg',
     description: 'You move closer to the oak tree and look closely. What did you find?',

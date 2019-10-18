@@ -1,6 +1,6 @@
 function scoreStamina(stamina) {
     if (stamina <= 0) {
-        return 'gohome';
+        return 'sick';
     }
 
     else if (stamina < 4) {
