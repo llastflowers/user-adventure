@@ -47,6 +47,10 @@ header img {
     font-weight: bold;
 }
 
+#result-description {
+    font-weight: bold;
+}
+
 #choices {
     display: flex;
     flex-direction: column;
@@ -67,6 +71,7 @@ span,
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+
 }
 
 button {

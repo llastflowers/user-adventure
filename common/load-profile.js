@@ -15,10 +15,10 @@ function loadProfile() {
 
     name.textContent = user.name;
     avatar.src = '../assets/avatars/' + user.avatar + '.svg';
-    stamina.textContent = user.stamina;
+    mushrooms.textContent = user.mushrooms;
 
     if (goHome(user)) {
-        stamina.textContent = 'Exhausted!';
+        stamina.textContent = '💀';
     }
     else {
         stamina.textContent = user.stamina;

@@ -3,7 +3,7 @@ import { getUser, saveUser } from '../data/save-get-user.js';
 import quests from '../data/quest-data.js';
 import createChoice from './create-choice.js';
 import findById from '../common/find-by-id.js';
-// import scoreQuest from './score-quest.js';
+import scoreQuest from './score-quest.js';
 
 loadProfile();
 
