@@ -1,5 +1,5 @@
 const deciduous = {
-    id: 'decidous',
+    id: 'deciduous',
     title: 'At the base of a deciduous tree',
     map: {
         top: '90%',

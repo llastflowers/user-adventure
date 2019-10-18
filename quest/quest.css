@@ -39,6 +39,8 @@ header img {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(170, 136, 90);
 }
 
 #description {
@@ -52,7 +54,7 @@ header img {
 }
 
 .quiz {
-    margin: 3% 10% 0 22%;
+    margin: 2.5% 10% 0 22%;
     column-count: 2;
     column-fill: balance;
 }
