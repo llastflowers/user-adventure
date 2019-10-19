@@ -37,7 +37,26 @@ span,
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+}
+/* 
+main {
+    display: flex;
+    justify-content: center;
+} */
 
+.basket {
+    width: 960px;
+    height: 502.4px;
+    border-radius: 20px;
+    border: 3px solid rgb(170, 136, 90);
+    margin: auto 25%;
+}
+
+#story-display {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    line-height: 30px;
 }
 
 button {

@@ -80,8 +80,9 @@ a:active {
     text-decoration: none;
 }
 
-.quest-completed {
+.completed {
     color: white;
-    font-size: 10px;
+    text-shadow: 1px 1px 1px black;
+    font-size: 22px;
     text-decoration: line-through;
 }

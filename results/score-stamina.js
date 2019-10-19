@@ -3,7 +3,7 @@ function scoreStamina(stamina) {
         return 'sick';
     }
 
-    else if (stamina < 4) {
+    else if (stamina > 4) {
         return 'tired';
     }
 }
