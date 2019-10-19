@@ -31,5 +31,3 @@ story += staminaMessage + '. ';
 story += mushroomsMessage;
 
 storyDisplay.textContent = story;
-
-// story += user.name + ' the ' + user.avatar + ', ';

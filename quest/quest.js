@@ -43,6 +43,8 @@ choiceForm.addEventListener('submit', function(event) {
     scoreQuest(choice, quest.id, user);
     saveUser(user);
 
+    document.getElementById('identify').disabled = true;
+
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
     resultDescription.textContent = choice.result;

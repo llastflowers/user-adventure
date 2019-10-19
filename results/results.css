@@ -38,25 +38,30 @@ p {
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
 }
-/* 
-main {
-    display: flex;
-    justify-content: center;
-} */
 
-.basket {
+/* .basket {
     width: 960px;
     height: 502.4px;
     border-radius: 20px;
     border: 3px solid rgb(170, 136, 90);
     margin: auto 25%;
-}
+} */
 
 #story-display {
     display: flex;
-    justify-content: center;
-    width: 700px;
-    line-height: 30px;
+    align-items: center;
+    padding: 60px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    line-height: 60px;
+    margin: 2% auto;
+    background-image: url(../assets/other/basket1.jpg);
+    width: 960px;
+    height: 502.4px;
+    border-radius: 20px;
+    border: 3px solid rgb(170, 136, 90);
 }
 
 button {
@@ -66,6 +71,9 @@ button {
     background-color: rgb(170, 136, 90);
     border: 2px solid black;
     border-radius: 15px;
+    position: relative;
+    margin: 2% auto;
+    display: block;
 }
 
 button:hover {
@@ -88,7 +96,6 @@ a {
 }
 
 a:hover {
-    text-decoration: underline dotted rgb(170, 136, 90);
     cursor: pointer;
 }
 
