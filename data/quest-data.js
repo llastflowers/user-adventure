@@ -145,8 +145,8 @@ const bark = {
         stamina: -5,
         mushrooms: 2
     }, {
-        id: 'russula',
-        description: 'Russula',
+        id: 'apricot',
+        description: 'Apricot Jelly Mushroom',
         result: 'Hmm, nope... You leave the mushroom alone. Better safe than sorry!',
         stamina: -10,
         mushrooms: 0  

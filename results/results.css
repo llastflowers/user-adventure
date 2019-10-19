@@ -50,6 +50,7 @@ p {
 #story-display {
     display: flex;
     align-items: center;
+    text-align: center;
     padding: 60px;
     color: white;
     font-size: 40px;
@@ -71,9 +72,15 @@ button {
     background-color: rgb(170, 136, 90);
     border: 2px solid black;
     border-radius: 15px;
-    position: relative;
-    margin: 2% auto;
-    display: block;
+}
+
+.learn-more {
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.play-again {
+    margin-left: 38%;
 }
 
 button:hover {
