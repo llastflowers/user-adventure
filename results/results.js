@@ -9,7 +9,6 @@ loadProfile();
 const user = getUser();
 
 const storyDisplay = document.getElementById('story-display');
-// const resultImage = document.getElementById('result-image');
 
 const staminaResult = scoreStamina(user.stamina);
 const mushroomsResult = scoreMushrooms(user.mushrooms);
@@ -18,7 +17,6 @@ const staminaMessage = staminaMessages[staminaResult];
 let mushroomsMessages = null;
 if (mushroomsResult === 'sick') {
     mushroomsMessages = sickMushroomsMessages;
-    // resultImage = sickResultImage;
 }
 else {
     mushroomsMessages = healthyMushroomsMessages;

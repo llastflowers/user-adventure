@@ -11,7 +11,7 @@ const deciduous = {
     choices:  [{
         id: 'cauliflower',
         description: 'Cauliflower Mushroom',
-        result: 'That\'s not right... You leave the mushroom alone. Better safe than sorry!',
+        result: 'Hmmm, maybe not... You leave the mushroom alone. Better safe than sorry!',
         stamina: -10,
         mushrooms: 0
     }, {
@@ -79,7 +79,7 @@ const needles = {
     }, {
         id: 'bolete',
         description: 'Bolete',
-        result: 'Hmm, nope... You leave the mushroom alone. Better safe than sorry!',
+        result: 'Hmmm, maybe not... You leave the mushroom alone. Better safe than sorry!',
         stamina: -10,
         mushrooms: 0
     }, {
@@ -110,7 +110,7 @@ const log = {
     }, {
         id: 'hedgehog',
         description: 'Hedgehog Mushroom',
-        result: 'That\'s not right... You leave the mushroom alone. Better safe than sorry!',
+        result: 'Hmmm, maybe not... You leave the mushroom alone. Better safe than sorry!',
         stamina: -10,
         mushrooms: 0
     }, {
@@ -130,12 +130,12 @@ const bark = {
         left: '40%'
     },
     image: 'mushroom5.jpg',
-    description: 'You move closer to the oak tree and look closely. What did you find?',
+    description: 'You move toward the oak tree and look closely. What did you find?',
 
     choices:  [{
         id: 'lionsmane',
         description: 'Lion\'s Mane',
-        result: 'That\'s not right... You leave the mushroom alone. Better safe than sorry!',
+        result: 'Hmmm, maybe not... You leave the mushroom alone. Better safe than sorry!',
         stamina: -10,
         mushrooms: 0
     }, {
