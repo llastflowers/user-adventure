@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(245, 236, 220);
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+label img {
+    height: 100px;
+    width: 100px;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+#image {
+    height: 600px;
+    width: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(170, 136, 90);
+}
+
+#description {
+    font-weight: bold;
+}
+
+#result-description {
+    font-weight: bold;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.quiz {
+    margin: 2.5% 10% 0 22%;
+    column-count: 2;
+    column-fill: balance;
+}
+
+.quiz-text {
+    width: 500px;
+}
+
+span,
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+
+}
+
+button {
+    font-size: 30px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(170, 136, 90);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+}
+
+button:active {
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: rgb(170, 136, 90);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline dotted rgb(170, 136, 90);
+    cursor: pointer;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.quest.completed:after {
+    text-decoration: line-through;
+}

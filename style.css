@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3%;
+    background-color: rgb(245, 236, 220);
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#name {
+    height: 80px;
+    width: 270px;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+input:focus {
+    outline:none !important;
+}
+
+#avatar {
+    height: 100px;
+    width: 100px;
+}
+
+
+label img {
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 15%;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+form {
+    margin: 3% 22.5%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+fieldset {
+    margin-top: 30px;
+    width: 990px;
+}
+
+input:checked + .radio-image {
+    border: 2px dashed  rgb(170, 136, 90);
+    border-radius: 15%;
+    
+}
+
+fieldset input {
+    display: none;
+}
+
+button {
+    font-size: 30px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(170, 136, 90);
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+}
+
+button:active {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
